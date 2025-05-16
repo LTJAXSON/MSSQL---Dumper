@@ -34,3 +34,8 @@ nxc mssql 192.168.1.100 -u sa -p 'Password123!' -M mssql_dumper  -o LIKE_SEARCH=
 SEARCH       Semicolon-separated regex(es) to search for in **Cell Values**
 LIKE_SEARCH  Comma-separated list of column names to specifically look for
 SAVE         Save the output to sqlite database (default True)
+
+
+  `Coming Next`
+ Work in progress to enable data retrieval through linked servers expanding the attack surfce.
+
