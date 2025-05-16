@@ -32,7 +32,11 @@ nxc mssql 192.168.1.100 -u sa -p 'Password123!' -M mssql_dumper  -o LIKE_SEARCH=
   `Module Options`
 
 1 - SEARCH       Semicolon-separated regex(es) to search for in **Cell Values**
+
+
 2 - LIKE_SEARCH  Comma-separated list of column names to specifically look for
+
+
 3 - SAVE         Save the output to sqlite database (default True)
 
 
